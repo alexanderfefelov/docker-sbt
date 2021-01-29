@@ -4,7 +4,7 @@ FROM quay.io/alexanderfefelov/graalvm:$GRAALVM_VERSION
 
 ARG SBT_VERSION=1.4.6
 ARG SBT_HOME=/sbt
-ENV WORKDIR=/workdir
+ARG WORKDIR=/workdir
 
 ENV PATH=$SBT_HOME/bin:$PATH
 
