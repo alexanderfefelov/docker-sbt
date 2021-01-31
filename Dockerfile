@@ -2,7 +2,7 @@ ARG GRAALVM_VERSION=21.0.0
 
 FROM quay.io/alexanderfefelov/graalvm:$GRAALVM_VERSION
 
-ARG SBT_VERSION=1.4.6
+ARG SBT_VERSION=1.4.7
 ARG SBT_HOME=/sbt
 ARG WORKDIR=/workdir
 
