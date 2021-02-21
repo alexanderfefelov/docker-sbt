@@ -14,5 +14,5 @@ docker run \
   --publish 9000:9000 \
   --volume $(pwd)/$APP_HOME:/workdir \
   --volume $(pwd)/$CACHE_DIR:/root/.cache/coursier \
-  quay.io/alexanderfefelov/sbt \
+  quay.io/alexanderfefelov/sbt:1.4.7-java8 \
     sbt run
